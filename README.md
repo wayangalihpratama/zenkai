@@ -83,8 +83,8 @@ docker-compose exec laravel php artisan migrate:fresh --seed
 
 6. **Access the application**
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:8000/api/v1
-- Admin Panel: http://localhost:8000/admin
+- Backend API: http://localhost:3000/api/v1
+- Admin Panel: http://localhost:3000/admin
 - Mailhog: http://localhost:8025
 
 ### Default Admin Credentials
@@ -320,7 +320,7 @@ API endpoints follow REST conventions:
 - `GET /api/v1/corporate/services` - List services
 - `GET /api/v1/corporate/portfolio` - List portfolio items
 
-Full API documentation available at: http://localhost:8000/api/documentation
+Full API documentation available at: http://localhost:3000/api/documentation
 
 ## 🐛 Troubleshooting
 

@@ -397,9 +397,9 @@ php artisan db:seed
 ## Expected Outputs
 
 ### Success
-- Laravel application running at http://localhost:8000
-- API endpoints responding correctly
-- Filament admin accessible at http://localhost:8000/admin
+- Laravel application running at http://localhost:3000
+- API endpoints responding correctly (via proxy)
+- Filament admin accessible at http://localhost:3000/admin
 - Database tables created with relationships
 - Demo data seeded
 

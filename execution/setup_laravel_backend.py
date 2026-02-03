@@ -178,8 +178,8 @@ class LaravelBackendSetup:
         print("🎉 Laravel Backend Setup Complete!")
         print("=" * 50)
         print(f"\n📍 URLs:")
-        print(f"   API:        http://localhost:8000")
-        print(f"   Admin:      http://localhost:8000/admin")
+        print("   API:        http://localhost:3000/api/v1")
+        print("   Admin:      http://localhost:3000/admin")
         print("\n📝 Default Admin Login:")
         print(
             "   (You may need to create a user: docker compose exec laravel php artisan make:filament-user)"

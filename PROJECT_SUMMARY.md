@@ -85,8 +85,8 @@ docker-compose exec laravel php artisan migrate:fresh --seed
 
 ### Step 3: Access Applications
 - Frontend: http://localhost:3000
-- Backend API: http://localhost:8000/api/v1
-- Admin Panel: http://localhost:8000/admin
+- Backend API: http://localhost:3000/api/v1
+- Admin Panel: http://localhost:3000/admin
 - Mailhog: http://localhost:8025
 
 ### Step 4: Start Building
